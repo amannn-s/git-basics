@@ -24,6 +24,21 @@ git config --global user.email "s.aman230630@gmail.com"
 
 ### 5. Key Git Commands
 
+#### Initialization
+
 ```bash
 git init
+```
+
+#### Tracking Changes
+
+```bash
+git status
+```
+
+#### Undoing Changes
+
+```bash
+git checkout -- <file>
+get reset HEAD <file>
 ```
